@@ -1,0 +1,3 @@
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+export default function PrivacyPage() { return <><Header /><main className="legal-page"><div className="container narrow"><span className="eyebrow">Información legal</span><h1>Aviso de privacidad</h1><p>Raíz Noble utiliza los datos proporcionados en sus formularios únicamente para atender solicitudes relacionadas con compra, venta, renta o inversión inmobiliaria.</p><p>Antes de la publicación definitiva, este texto deberá revisarse y completarse con los datos fiscales, domicilio y mecanismos de ejercicio de derechos correspondientes.</p></div></main><Footer /></>; }

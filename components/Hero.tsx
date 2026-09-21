@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowDownRight } from "lucide-react";
+
+export function Hero() {
+  return <section className="hero"><div className="hero-pattern" aria-hidden="true" /><div className="container hero-inner"><div className="hero-copy"><span className="eyebrow light">Xalapa · Veracruz · México</span><h1>Bienes raíces<br /><em>con raíz.</em></h1><p>Inmobiliaria mexicana contemporánea en Xalapa, Veracruz. Compra, vende e invierte con claridad, imagen premium y acompañamiento profesional.</p><div className="hero-actions"><Link className="button gold" href="#propiedades">Ver propiedades disponibles <ArrowDownRight size={18} /></Link><Link className="hero-secondary-link" href="#vender">Quiero vender una propiedad</Link></div></div><div className="hero-emblem"><img src="/raiz-noble-logo-negro.png" alt="Emblema oficial de Raíz Noble" /></div><div className="hero-availability"><span>Listados seleccionados</span><strong>Propiedades disponibles en Xalapa y la región</strong><small>Atención personalizada, sin catálogos saturados.</small></div><div className="hero-note"><span>Patrimonio</span><span>Estrategia</span><span>Acompañamiento</span></div></div></section>;
+}
