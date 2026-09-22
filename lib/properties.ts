@@ -15,7 +15,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Casa",
     title: "Propiedad de oportunidad en Xalapa",
-    location: "Av. Ferrocarril Interoceánico, Xalapa, Ver.",
+    location: "Av. Ferrocarril Interoceánico, Xalapa, Ver",
     price: 2777000,
     priceLabel: "$2,777,000 MXN",
     image: "/properties/ferrocarril-interoceanico-01.webp",
