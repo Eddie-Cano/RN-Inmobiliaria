@@ -7,10 +7,35 @@ export type Property = {
   documentStatus: string; description: string; amenities: string[];
 };
 
-// DATOS TEMPORALES: reemplaza este arreglo con los listados reales.
-// La interfaz y todos los filtros se actualizan automáticamente.
+// El primer registro es un listado real. Los demás siguen siendo ejemplos editables.
+// La interfaz, las fichas y todos los filtros se actualizan automáticamente.
 export const properties: Property[] = [
-  { slug: "casa-familiar-xalapa", operation: "Venta", type: "Casa", title: "Casa familiar en Xalapa", location: "Ánimas, Xalapa", price: 3850000, priceLabel: "$3,850,000 MXN", image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85", gallery: ["https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85", "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85", "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85"], land: 210, construction: 248, bedrooms: 3, bathrooms: 3, parking: 2, documentStatus: "Documentación en revisión inicial", description: "Una casa de líneas contemporáneas con espacios generosos, iluminación natural y una ubicación práctica para la vida diaria en Xalapa.", amenities: ["Cocina integral", "Jardín", "Área de lavado", "Cisterna", "Estudio"] },
+  {
+    slug: "propiedad-oportunidad-ferrocarril-interoceanico",
+    operation: "Venta",
+    type: "Casa",
+    title: "Propiedad de oportunidad en Xalapa",
+    location: "Av. Ferrocarril Interoceánico, Xalapa, Ver.",
+    price: 2777000,
+    priceLabel: "$2,777,000 MXN",
+    image: "/properties/ferrocarril-interoceanico-01.webp",
+    gallery: [
+      "/properties/ferrocarril-interoceanico-01.webp",
+      "/properties/ferrocarril-interoceanico-02.webp",
+      "/properties/ferrocarril-interoceanico-03.webp",
+      "/properties/ferrocarril-interoceanico-04.webp",
+      "/properties/ferrocarril-interoceanico-05.webp",
+      "/properties/ferrocarril-interoceanico-06.webp"
+    ],
+    land: 359,
+    construction: 0,
+    bedrooms: 0,
+    bathrooms: 0,
+    parking: 0,
+    documentStatus: "359 m² escriturados y documentación en regla",
+    description: "Propiedad con excelente ubicación cerca de la avenida Ferrocarril Interoceánico. Cuenta con 359 m² escriturados y una vivienda construida que puede habitarse, remodelarse o aprovecharse como base para un nuevo proyecto. Por su superficie, servicios y ubicación estratégica, es una alternativa atractiva para familias, inversionistas y desarrolladores.",
+    amenities: ["Todos los servicios disponibles", "Vivienda actualmente construida", "Potencial habitacional o comercial", "Opción de remodelación", "Zona urbana estratégica", "Precio cercano al valor del terreno"]
+  },
   { slug: "terreno-potencial-inversion", operation: "Inversión", type: "Terreno", title: "Terreno con potencial de inversión", location: "Carretera a Coatepec", price: 1980000, priceLabel: "$1,980,000 MXN", image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85", gallery: ["https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=85", "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"], land: 960, construction: 0, bedrooms: 0, bathrooms: 0, parking: 0, documentStatus: "Título de propiedad disponible", description: "Superficie con vocación residencial y buen frente, ubicada en un corredor de crecimiento entre Xalapa y Coatepec.", amenities: ["Acceso pavimentado", "Servicios cercanos", "Topografía aprovechable", "Zona en crecimiento"] },
   { slug: "residencia-contemporanea", operation: "Venta", type: "Casa", title: "Residencia contemporánea", location: "Monte Magno, Xalapa", price: 6240000, priceLabel: "$6,240,000 MXN", image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=85", gallery: ["https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=85", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85"], land: 280, construction: 360, bedrooms: 4, bathrooms: 4, parking: 3, documentStatus: "Expediente documental completo", description: "Arquitectura actual, materiales sobrios y una distribución pensada para convivir y recibir con comodidad.", amenities: ["Terraza en azotea", "Sala de TV", "Vestidor", "Cuarto de servicio", "Seguridad"] },
   { slug: "casa-campestre", operation: "Venta", type: "Casa", title: "Casa campestre", location: "Briones, Coatepec", price: 4920000, priceLabel: "$4,920,000 MXN", image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=85", gallery: ["https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1600&q=85", "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"], land: 740, construction: 290, bedrooms: 3, bathrooms: 3, parking: 4, documentStatus: "Escritura pública", description: "Una propiedad rodeada de vegetación, con terrazas y espacios interiores cálidos para disfrutar el clima de la región.", amenities: ["Jardín amplio", "Terraza", "Chimenea", "Bodega", "Portón eléctrico"] },
