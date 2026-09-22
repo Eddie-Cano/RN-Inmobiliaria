@@ -290,5 +290,5 @@ p { color: var(--muted); }
   .footer-bottom { gap: 12px; flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hero-video { display: none; }
+  .hero-video { animation: none; }
 }
