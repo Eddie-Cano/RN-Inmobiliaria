@@ -107,7 +107,7 @@ export function Hero() {
           controls={false}
           disablePictureInPicture
         >
-          <source src="/hero-horizontal.mp4" type="video/mp4" />
+          <source src="/Crear_video_para_inmobiliaria_20260921182102.mp4" type="video/mp4" />
         </video>
         <video
           ref={mobileVideo}
@@ -120,7 +120,7 @@ export function Hero() {
           controls={false}
           disablePictureInPicture
         >
-          <source src="/hero-vertical.mp4" type="video/mp4" />
+          <source src="/Crear_video_vertical_Raíz_Noble_20260921182134.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="hero-pattern" aria-hidden="true" />
